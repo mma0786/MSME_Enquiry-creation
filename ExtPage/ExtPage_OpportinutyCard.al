@@ -14,8 +14,7 @@ pageextension 50003 "Ext. Opportunity" extends "Opportunity Card"
                         EditiableCustomerBoolG := true;
                         EditiableContactBoolG := false
                     end
-                    else
-                        if "MSME Type" = "MSME Type"::Contact then begin
+                    else if "MSME Type" = "MSME Type"::Contact then begin
                             EditiableContactBoolG := true;
                             EditiableCustomerBoolG := false
                         end
@@ -96,7 +95,7 @@ pageextension 50003 "Ext. Opportunity" extends "Opportunity Card"
                 {
 
                 }
-                field("Days of Conversion in Croposal"; "Days of Conversion in Croposal")
+                field("Days of Conversion in Croposal"; "Days of Conversion in Proposal")
                 {
 
                 }

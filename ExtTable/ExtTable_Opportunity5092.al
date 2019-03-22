@@ -8,7 +8,7 @@ tableextension 50000 "Ext. Opportunity" extends Opportunity
         }
         field(50001; "Source of Enquiry"; Option)
         {
-            OptionMembers = " ","Advertisement Call","Social Networking","Cold Calling. Staff Member","Regular Customer",Mail,"Online Form","Online Chat";
+            OptionMembers = " ", "Advertisement Call", "Social Networking", "Cold Calling. Staff Member", "Regular Customer", Mail, "Online Form", "Online Chat";
         }
         field(50002; "Person in charge"; Code[20])
         {
@@ -40,11 +40,11 @@ tableextension 50000 "Ext. Opportunity" extends Opportunity
         }
         field(50009; "MSME Status"; Option)
         {
-            OptionMembers = " ","Under Progress","Quotation sent","Regret","Review","Under Approval";
+            OptionMembers = " ", "Under Progress", "Quotation sent", "Regret", "Review", "Under Approval";
         }
         field(50010; "Opportunity Type"; Option)
         {
-            OptionMembers = " ","Tender","Small","Big projects","job in hand";
+            OptionMembers = " ", "Tender", "Small", "Big projects", "job in hand";
         }
         field(50011; "Authority Required"; Boolean)
         {
@@ -52,9 +52,9 @@ tableextension 50000 "Ext. Opportunity" extends Opportunity
         }
         field(50012; "Authorities"; Option)
         {
-            OptionMembers = " ","DM","DCCA","Tarkhees","ADM","Consultants","others";
+            OptionMembers = " ", "DM", "DCCA", "Tarkhees", "ADM", "Consultants", "others";
         }
-        field(50013; "Days of Conversion in Croposal"; Date)
+        field(50013; "Days of Conversion in Proposal"; Date)
         {
 
         }
@@ -88,7 +88,7 @@ tableextension 50000 "Ext. Opportunity" extends Opportunity
         }
         field(50021; "MSME Type"; Option)
         {
-            OptionMembers = " ","Customer","Contact";
+            OptionMembers = " ", "Customer", "Contact";
         }
 
 
