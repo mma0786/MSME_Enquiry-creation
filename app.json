@@ -4,8 +4,7 @@
   "publisher": "Default publisher",
   "brief": "",
   "description": "",
-  "version": "1.0.0.0",
-  "compatibilityId": "1.0.0.0",
+  "version": "1.0.0.0",  
   "privacyStatement": "",
   "EULA": "",
   "help": "",
@@ -17,7 +16,7 @@
   "platform": "11.0.0.0",
   "application": "11.0.0.0",
   "idRange": {
-    "from": 50100,
+    "from": 50000,
     "to": 50149
   }
 }
