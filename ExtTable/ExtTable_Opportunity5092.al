@@ -86,11 +86,10 @@ tableextension 50000 "Ext. Opportunity" extends Opportunity
         {
 
         }
-
-
-
-
-
+        field(50021; "MSME Type"; Option)
+        {
+            OptionMembers = " ","Customer","Contact";
+        }
 
 
     }
